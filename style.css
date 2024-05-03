@@ -1,0 +1,282 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 75vh;
+    width: 25vw;
+    background-color: rgb(41, 40, 40);
+    /* padding-top: 60px; */
+    margin-top: 70px;
+    border-radius: 7px;
+    box-shadow: 5px 15px 5px black;
+
+}
+
+.container img {
+    width: 300px;
+    border-radius: 7px;
+    padding: 8px 3px 3px 9px;
+}
+
+.box1 {
+    padding-left: 8px;
+}
+.box1 button:nth-child(1):hover{
+    background-color: rgb(108, 103, 103);
+    color: white;
+}
+    
+
+
+.box1 button:nth-child(1) {
+    background-color: red;
+    color: white;
+    padding: 20px 70px;
+    cursor: pointer;
+
+
+}
+.box1 button:nth-child(2):hover{
+    background-color: rgb(108, 103, 103);
+    color: white;
+}
+.box1 button:nth-child(2) {
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    cursor: pointer;
+    margin: 0 2px;
+
+}
+.box1 button:nth-child(3):hover{
+    background-color: rgb(108, 103, 103);
+    color: white;
+}
+.box1 button:nth-child(3) {
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
+.box2 {
+    padding-left: 8px;
+    margin: 10px 2px 0 2px;
+}
+.box2 button:nth-child(1):hover{
+    background-color: rgb(108, 103, 103);
+    color: white;
+}
+.box2 button:nth-child(1) {
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    cursor: pointer;
+    /* margin: 0 10px; */
+}
+.box2 button:nth-child(2):hover{
+    background-color: rgb(108, 103, 103);
+    color: white;
+}
+.box2 button:nth-child(2) {
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    cursor: pointer;
+    /* margin: 0 10px; */
+}
+.box2 button:nth-child(3):hover{
+    background-color: rgb(108, 103, 103);
+    color: white;
+}
+.box2 button:nth-child(3) {
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    cursor: pointer;
+    /* margin: 0 10px; */
+}
+.box2 button:nth-child(4):hover{
+    background-color: rgb(108, 103, 103);
+    color: white;
+}
+.box2 button:nth-child(4) {
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    cursor: pointer;
+    /* margin: 0 10px; */
+}
+
+.box3 {
+    padding-left: 8px;
+
+    margin: 10px 2px 0 2px;
+}
+.box3 button:nth-child(1):hover{
+    background-color: rgb(108, 103, 103);
+    color: white;
+}
+.box3 button:nth-child(1) {
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    cursor: pointer;
+    /* margin: 0 10px; */
+    position: relative;
+    top: -30px;
+
+}
+.box3 button:nth-child(2):hover{
+    background-color: rgb(108, 103, 103);
+    color: white;
+}
+.box3 button:nth-child(2) {
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    cursor: pointer;
+    /* margin: 0 10px; */
+    position: relative;
+    top: -30px;
+}
+.box3 button:nth-child(3):hover{
+    background-color: rgb(108, 103, 103);
+    color: white;
+}
+.box3 button:nth-child(3) {
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    cursor: pointer;
+    /* margin: 0 10px; */
+    position: relative;
+    top: -30px;
+}
+.box3 button:nth-child(4):hover{
+    background-color: rgb(108, 103, 103);
+    color: white;
+}
+.box3 button:nth-child(4) {
+    background-color: black;
+    color: white;
+    padding: 50px 30px;
+    cursor: pointer;
+    /* margin: 0 10px; */
+}
+
+.box4 {
+    padding-left: 8px;
+
+    margin: 10px 2px 0 2px;
+}
+.box4 button:nth-child(1):hover{
+    background-color: rgb(108, 103, 103);
+    color: white;
+}
+.box4 button:nth-child(1) {
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    cursor: pointer;
+    /* margin: 0 10px; */
+    position: relative;
+    top: -70px;
+}
+.box4 button:nth-child(2):hover{
+    background-color: rgb(108, 103, 103);
+    color: white;
+}
+.box4 button:nth-child(2) {
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    cursor: pointer;
+    /* margin: 0 10px; */
+    position: relative;
+    top: -70px;
+}
+.box4 button:nth-child(3):hover{
+    background-color: rgb(108, 103, 103);
+    color: white;
+}
+.box4 button:nth-child(3) {
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+
+    position: relative;
+    top: -70px;
+    cursor: pointer;
+    /* margin: 0 10px; */
+}
+
+.box5 {
+    padding-left: 8px;
+
+    margin: 10px 2px 0 2px;
+}
+.box5 button:nth-child(1):hover{
+    background-color: rgb(108, 103, 103);
+    color: white;
+}
+.box5 button:nth-child(1) {
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+
+    position: relative;
+    top: -70px;
+    cursor: pointer;
+    /* margin: 0 10px; */
+}
+.box5 button:nth-child(2):hover{
+    background-color: rgb(108, 103, 103);
+    color: white;
+}
+.box5 button:nth-child(2) {
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+
+    position: relative;
+    top: -70px;
+    cursor: pointer;
+    /* margin: 0 10px; */
+}
+.box5 button:nth-child(3):hover{
+    background-color: rgb(108, 103, 103);
+    color: white;
+}
+.box5 button:nth-child(3) {
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+
+    position: relative;
+    top: -70px;
+    cursor: pointer;
+    /* margin: 0 10px; */
+}
+.box5 button:nth-child(4):hover{
+    background-color: rgb(108, 103, 103);
+    color: white;
+}
+.box5 button:nth-child(4) {
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+
+    position: relative;
+    top: -70px;
+    cursor: pointer;
+    /* margin: 0 10px; */
+}
