@@ -271,7 +271,7 @@ body {
     color: white;
 }
 .box5 button:nth-child(4) {
-    background-color: black;
+    background-color: blue;
     color: white;
     padding: 20px 30px;
 
@@ -279,4 +279,174 @@ body {
     top: -70px;
     cursor: pointer;
     /* margin: 0 10px; */
+}
+@media screen and (max-width: 1200px){
+    .container {
+        height: 300px;
+        width: 150px;
+        background-color: rgb(41, 40, 40);
+        /* padding-top: 60px; */
+        margin-top: 70px;
+        border-radius: 7px;
+        box-shadow: 5px 15px 5px black;
+        margin-left: 80px;
+    }
+    .container img {
+        width: 135px;
+        border-radius: 7px;
+        padding: 8px 3px 3px 9px;
+    }
+    .box1 button:nth-child(1) {
+        background-color: red;
+        color: white;
+        padding: 10px 25px;
+        cursor: pointer;
+    }
+    .box1 button:nth-child(2) {
+        background-color: black;
+        color: white;
+        padding: 10px 10px;
+        cursor: pointer;
+        margin: 0 2px;
+    }
+    .box1 button:nth-child(3) {
+        background-color: black;
+        color: white;
+        padding: 10px 10px;
+        cursor: pointer;
+    }
+    .box2{
+        margin: 10px 0 0 0;
+    }
+    .box2 button:nth-child(1) {
+        background-color: black;
+        color: white;
+        padding: 10px 10px;
+        cursor: pointer;
+        /* margin: 0 10px; */
+    }
+    .box2 button:nth-child(2) {
+        background-color: black;
+        color: white;
+        padding: 10px 10px;
+        cursor: pointer;
+        /* margin: 0 10px; */
+    }
+    .box2 button:nth-child(3) {
+        background-color: black;
+        color: white;
+        padding: 10px 10px;
+        cursor: pointer;
+        /* margin: 0 10px; */
+    }
+    .box2 button:nth-child(4) {
+        background-color: black;
+        color: white;
+        padding: 10px 10px;
+        cursor: pointer;
+        /* margin: 0 10px; */
+    }
+    .box3{
+        margin: 10px 0 0 0;
+    }
+    .box3 button:nth-child(1) {
+        background-color: black;
+        color: white;
+        padding: 10px 10px;
+        cursor: pointer;
+        /* margin: 0 10px; */
+        position: relative;
+        top: -25px;
+    }
+    .box3 button:nth-child(2) {
+        background-color: black;
+        color: white;
+        padding: 10px 10px;
+        cursor: pointer;
+        /* margin: 0 10px; */
+        position: relative;
+        top: -25px;
+    }
+    .box3 button:nth-child(3) {
+        background-color: black;
+        color: white;
+        padding: 10px 10px;
+        cursor: pointer;
+        /* margin: 0 10px; */
+        position: relative;
+        top: -25px;
+    }
+    .box3 button:nth-child(4) {
+        background-color: black;
+        color: white;
+        padding: 36px 10px;
+        cursor: pointer;
+        /* margin: 0 10px; */
+    }
+    .box4 button:nth-child(1) {
+        background-color: black;
+        color: white;
+        padding: 10px 10px;
+        cursor: pointer;
+        /* margin: 0 10px; */
+        position: relative;
+        top: -50px;
+    }
+    .box4 button:nth-child(2) {
+        background-color: black;
+        color: white;
+        padding: 10px 10px;
+        cursor: pointer;
+        /* margin: 0 10px; */
+        position: relative;
+        top: -50px;
+    }
+    .box4 button:nth-child(3) {
+        background-color: black;
+        color: white;
+        padding: 10px 10px;
+        cursor: pointer;
+        /* margin: 0 10px; */
+        position: relative;
+        top: -50px;
+    }
+    .box5{
+        margin: 18px 0 0 0;
+    }
+    .box5 button:nth-child(1) {
+        background-color: black;
+        color: white;
+        padding: 10px 10px;
+        position: relative;
+        top: -60px;
+        cursor: pointer;
+        /* margin: 0 10px; */
+    }
+    .box5 button:nth-child(2) {
+        background-color: black;
+        color: white;
+        padding: 10px 8px;
+        position: relative;
+        top: -60px;
+        cursor: pointer;
+        /* margin: 0 10px; */
+    }
+    .box5 button:nth-child(3) {
+        background-color: black;
+        color: white;
+        padding: 10px 10px;
+        position: relative;
+        top: -60px;
+        cursor: pointer;
+        /* margin: 0 10px; */
+    }
+    .box5 button:nth-child(4) {
+        background-color: blue;
+        color: white;
+        padding: 10px 10px;
+        position: relative;
+        top: -60px;
+        cursor: pointer;
+        /* margin: 0 10px; */
+    }
 }
